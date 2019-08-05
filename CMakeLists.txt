@@ -3,4 +3,4 @@ project(SocketServerDemoe)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(SocketServerDemoe main.cpp Common.h)
+add_executable(SocketServerDemoe main.cpp Common.h ChatRoomServer.h ChatRoomServer.cpp)
